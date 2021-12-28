@@ -1,0 +1,68 @@
+1. Title: Zoo database
+
+2. Source Information
+   -- Creator: Richard Forsyth
+   -- Donor: Richard S. Forsyth 
+             8 Grosvenor Avenue
+             Mapperley Park
+             Nottingham NG3 5DX
+             0602-621676
+   -- Date: 5/15/1990
+ 
+3. Past Usage:
+   -- None known other than what is shown in Forsyth's PC/BEAGLE User's Guide.
+
+4. Relevant Information:
+   -- A simple database containing 17 Boolean-valued attributes.  The "type"
+      attribute appears to be the class attribute.  Here is a breakdown of
+      which animals are in which type: (I find it unusual that there are
+      2 instances of "frog" and one of "girl"!)
+
+      Class# Set of animals:
+      ====== ===============================================================
+           1 mammals (41) aardvark, antelope, bear, boar, buffalo, calf,
+						  cavy, cheetah, deer, dolphin, elephant,
+						  fruitbat, giraffe, girl, goat, gorilla, hamster,
+						  hare, leopard, lion, lynx, mink, mole, mongoose,
+						  opossum, oryx, platypus, polecat, pony,
+						  porpoise, puma, pussycat, raccoon, reindeer,
+						  seal, sealion, squirrel, vampire, vole, wallaby,wolf
+           2 birds (20)   chicken, crow, dove, duck, flamingo, gull, hawk,
+						  kiwi, lark, ostrich, parakeet, penguin, pheasant,
+						  rhea, skimmer, skua, sparrow, swan, vulture, wren
+           3 reptiles(5)  pitviper, seasnake, slowworm, tortoise, tuatara 
+           4 fishes (13)  bass, carp, catfish, chub, dogfish, haddock,
+						  herring, pike, piranha, seahorse, sole, stingray, tuna
+           5 amphibians (4)  frog, frog, newt, toad 
+           6 insects (8)  flea, gnat, honeybee, housefly, ladybird, moth, termite, wasp
+           7 marine animals (10) clam, crab, crayfish, lobster, octopus,
+                  scorpion, seawasp, slug, starfish, worm
+
+5. Number of Instances: 100
+
+6. Number of Attributes: 18 (animal name, 15 Boolean attributes, 2 numerics)
+
+7. Attribute Information: (name of attribute and type of value domain)
+   1. hair			Boolean
+   2. feathers		Boolean
+   3. eggs			Boolean
+   4. milk			Boolean
+   5. airborne		Boolean
+   6. aquatic		Boolean
+   7. predator		Boolean
+   8. toothed		Boolean
+   9. backbone		Boolean
+  10. breathes		Boolean
+  11. venomous		Boolean
+  12. fins			Boolean
+  13. legs			Numeric (set of values: {0,2,4,5,6,8})
+  14. tail			Boolean
+  15. domestic		Boolean
+  16. catsize		Boolean
+  17. type			Numeric (integer values in range [1,7])
+  18. name          String
+
+8. Missing Attribute Values: None
+
+9. Class Distribution: Given above
+   
